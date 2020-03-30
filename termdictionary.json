@@ -1,0 +1,63 @@
+{
+    "key_figures": {
+        "income_statement": {
+            "revenue": {
+                "german": ["umsatz", "umsatzerlöse", "nettomiteinnahmen"]
+            },
+            "ebit": {
+                "german": ["EBIT", "betriebsergebnis", "ergebnis vor zinsen und steuern", 
+                    "ergebnis der betrieblichen tätigkeit", "ergebnis vonn finanzierungstätigkeit und steuern"]
+            },
+            "netincome": {
+                "german": ["jahresüberschuss", "gewinn", "konzerngewinn", "ergbenis das den aktionären*", "ergebnis nach steuern", "ergebnis des geschäftsjahres", "jahresfehlbetrag", "konzernjahresüberschuss", "ergebnis der aktionäre des mutterunternehmens", "konzernergebnis", "ergebnisanteil der aktionäre"]
+            },
+            "earnings_per_share": {
+                "german": ["ergebnis je aktie", "gewinn je aktien", "vorzugsaktie", "gewinn je vorzugsaktien", "unverwässert", "verwässert"]
+            }
+        },
+        "balance_sheet": {
+            "current_assets": {
+                "german": ["kurzfristige vermögenswerte", "kurzfristiges vermögen", "*lastnumbersection", "umlaufvermögen"]
+            },
+            "current_liab": {
+                "german": ["kurzfristige verbindlichkeiten", "kurzfristiges fremdkapital", "*lastnumbersection", "kurzfristige schulden"]
+            },
+            "equity": {
+                "german": ["eigenkapital", "konzerneigenkapital", "eigenkapital der aktionaere", "*lastnumbersection"]
+            },
+            "total_assets": {
+                "german": ["aktiva", "passiva", "gesamtvermögen", "gesamtvermoegen", "bilanzsumme", "gesamtkapital", "summe vermögenswerte", "summe eigenkapital und schulden", "*lastnumber"]
+            }
+        },
+        "cashflow_statement": {
+            "operating_cashflow": {
+                "german": ["mittelzufluss aus betrieblicher tätigkeit", "mittelabfluss aus betrieblicher tätigkeit", "cashflow aus betriebstätigkeit", "cashflow aus der laufenden geschäftstätigkeit", "cashflow aus der operativen geschäftstätigkeit", "cashflow aus laufender geschäftstätigkeit", "cashflow aus geschäftstätigkeit",
+                "mittelzufluss (+) / -abfluss (–) aus der laufenden geschäftstätigkeit", "aus der laufenden geschäftstätigkeit"]
+            },
+            "investment_cashflow": {
+                "german": ["mittelabfluss aus investitionstätigkeit", "mittelzufluss aus investitionstätigkeit", "cashflow aus investitionstätigkeit", "cashflow aus der investitionstätigkeit", "mittelzufluss (+) / -abfluss (–) aus der investitionstätigkeit",
+                "aus der investitionstätigkeit"]
+            },
+            "financial_cashflow": {
+                "german": ["mittelveränderung aus der finanzierungstätigkeit", "cashflow aus finanzierungstätigkeit", "cashflow aus der finanzierungstätigkeit", "mittelzufluss (+) / -abfluss (–) aus der finanzierungstätigkeit","aus der finanzierungstätigkeit"]
+            }
+        }
+    },
+    "titles": {
+        "general_statement": {
+            "german": ["konzernabschlussbericht", "konzernabschluss", "ifrs"]
+        },
+        "income_statement": {
+            "german": ["konzern-gewinn- und verlustrechnung", "gewinn- und verlustrechnung"]
+        },
+        "cashflow_statement": {
+            "german": ["konzerkapitalflussrechnung", "kapitalflussrechnung", "konzern-kapitalflussrechnung"]
+        },
+        "balance_sheet": {
+            "german": ["konzernbilanz", "vermögenswerte", "eigenkapital und schulden", "bilanz", "bilanz aktiva", "bilanz passiva"]
+        }
+    },
+    "units": {
+        "german": [{"Mio. EUR": 1000000}, {"TEUR": 1000}]
+    }
+}
