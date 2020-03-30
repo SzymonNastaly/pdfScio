@@ -136,15 +136,16 @@ def select_correct_pages(pages_with_figure):
     print(None)
 
 
-def find_statement_pages():
+def find_statement_pages(filepath, termsfile, language):
     """Finds page numbers of financial statements in annual report txt-file
     (TODO: PDF file)
     (TODO: un-hardcode filepaths, etc.)
     """
-    pages = file_to_pagelist("text-files/7-utf8.txt")
-    terms = json_to_list("termdictionary.json", "german")
+    pages = file_to_pagelist(filepath)
+    terms = json_to_list(termsfile, language)
     pages_with_figure = find_page_occurences(terms, pages)
     occurenceCounter = count_page_occurences(pages_with_figure)
     maxCountPages = find_max_count_pages(occurenceCounter)
     nearbypages = eliminate_not_nearby(maxCountPages)
-    print(None)
+
+    return nearbypages
