@@ -4,6 +4,12 @@
             "revenue": {
                 "german": ["umsatz", "umsatzerlöse", "nettomiteinnahmen"]
             },
+            "costs": {
+                "german": ["materialaufwand", "personalaufwand", "abschreibungen"]
+            },
+            "taxes": {
+                "german": ["steuern vom einkommen und vom ertrag", "steuern vom einkommen", "sonstige Steuern"]
+            },
             "ebit": {
                 "german": ["EBIT", "betriebsergebnis", "ergebnis vor zinsen und steuern", 
                     "ergebnis der betrieblichen tätigkeit", "ergebnis vonn finanzierungstätigkeit und steuern"]
@@ -17,13 +23,19 @@
         },
         "balance_sheet": {
             "current_assets": {
-                "german": ["kurzfristige vermögenswerte", "kurzfristiges vermögen", "*lastnumbersection", "umlaufvermögen"]
+                "german": ["kurzfristige vermögenswerte", "kurzfristiges vermögen", "*lastnumbersection", "umlaufvermögen", "vorräte", "forderungen",
+                "kassenbestand", "anlagevermögen", "vermögensgegenstände", "sachanlagen", "finanzanlagen", "guthaben", "schecks"]
             },
             "current_liab": {
-                "german": ["kurzfristige verbindlichkeiten", "kurzfristiges fremdkapital", "*lastnumbersection", "kurzfristige schulden"]
+                "german": ["kurzfristige verbindlichkeiten", "kurzfristiges fremdkapital", "*lastnumbersection", "kurzfristige schulden", "verbindlichkeiten",
+                "verbindlichkeiten aus lieferungen und leistungen", "verbindlichkeiten gegenüber kreditinstituten"]
+            },
+            "accruals": {
+                "german": ["rückstellungen", "steuerrückstellungen", "sonstige rückstellungen"]
             },
             "equity": {
-                "german": ["eigenkapital", "konzerneigenkapital", "eigenkapital der aktionaere", "*lastnumbersection"]
+                "german": ["eigenkapital", "konzerneigenkapital", "eigenkapital der aktionaere", "gezeichnetes kapital",
+                    "*lastnumbersection", "kapitalrücklage", "bilanzgewinn", "gewinnrücklagen", "bilanzgewinn"]
             },
             "total_assets": {
                 "german": ["aktiva", "passiva", "gesamtvermögen", "gesamtvermoegen", "bilanzsumme", "gesamtkapital", "summe vermögenswerte", "summe eigenkapital und schulden", "*lastnumber"]
